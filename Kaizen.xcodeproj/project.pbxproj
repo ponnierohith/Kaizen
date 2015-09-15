@@ -147,25 +147,7 @@
 		099685E21AC6941200EE434B = {
 			isa = PBXGroup;
 			children = (
-				0996866C1AC7AB7300EE434B /* libxml2.2.dylib */,
-				0996866A1AC7A99500EE434B /* libxml2.dylib */,
-				099686681AC7A97C00EE434B /* libresolv.dylib */,
-				099686661AC7A96C00EE434B /* libz.dylib */,
-				099686641AC7A96000EE434B /* Security.framework */,
-				099686621AC7A95700EE434B /* QuartzCore.framework */,
-				099686601AC7A94D00EE434B /* AVFoundation.framework */,
-				0996865E1AC7A94400EE434B /* CoreVideo.framework */,
-				0996865C1AC7A93A00EE434B /* Accelerate.framework */,
-				0996865A1AC7A93000EE434B /* CoreMedia.framework */,
-				099686581AC7A91C00EE434B /* AudioToolbox.framework */,
-				099686561AC7A91000EE434B /* CoreLocation.framework */,
-				099686541AC7A90400EE434B /* CoreGraphics.framework */,
-				099686521AC7A8FA00EE434B /* MobileCoreServices.framework */,
-				099686501AC7A8EA00EE434B /* SystemConfiguration.framework */,
-				0996864E1AC7A87900EE434B /* CFNetwork.framework */,
-				0996864C1AC7A83C00EE434B /* QuickBlox.framework */,
-				099686381AC7254E00EE434B /* MapKit.framework */,
-				0996862B1AC6C6F400EE434B /* CoreData.framework */,
+				F155066A1BA85DCF00C6132A /* Frameworks */,
 				099685ED1AC6941200EE434B /* Kaizen */,
 				099686071AC6941200EE434B /* KaizenTests */,
 				099685EC1AC6941200EE434B /* Products */,
@@ -184,20 +166,10 @@
 		099685ED1AC6941200EE434B /* Kaizen */ = {
 			isa = PBXGroup;
 			children = (
-				0996862D1AC6C7FC00EE434B /* DataModel.xcdatamodeld */,
 				099685F21AC6941200EE434B /* AppDelegate.h */,
 				099685F31AC6941200EE434B /* AppDelegate.m */,
 				0996866E1AC7AF1800EE434B /* SignInViewController.h */,
-				0996866F1AC7AF1800EE434B /* SignInViewController.m */,
-				099686701AC7AF1800EE434B /* SignInViewController.xib */,
-				099685F51AC6941200EE434B /* ChannelsTableViewController.h */,
-				099685F61AC6941200EE434B /* ChannelsTableViewController.m */,
-				099686221AC6AA4800EE434B /* ServiceChatsViewController.h */,
-				099686231AC6AA4800EE434B /* ServiceChatsViewController.m */,
-				099686241AC6AA4800EE434B /* ServiceChatsViewController.xib */,
-				099686331AC7245C00EE434B /* MapViewController.h */,
-				099686341AC7245C00EE434B /* MapViewController.m */,
-				099686351AC7245C00EE434B /* MapViewController.xib */,
+				F155066B1BA860BD00C6132A /* ViewControllers */,
 				0996863D1AC7496F00EE434B /* Annotation.h */,
 				0996863E1AC7496F00EE434B /* Annotation.m */,
 				0996861F1AC69D1B00EE434B /* Message.h */,
@@ -206,8 +178,6 @@
 				F15506681BA85D7400C6132A /* ChatDialogViewCell.m */,
 				099686301AC7235100EE434B /* WYPopoverController.h */,
 				099686311AC7235100EE434B /* WYPopoverController.m */,
-				099685FB1AC6941200EE434B /* Images.xcassets */,
-				099685FD1AC6941200EE434B /* LaunchScreen.xib */,
 				099685EE1AC6941200EE434B /* Supporting Files */,
 			);
 			path = Kaizen;
@@ -216,6 +186,9 @@
 		099685EE1AC6941200EE434B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0996862D1AC6C7FC00EE434B /* DataModel.xcdatamodeld */,
+				099685FB1AC6941200EE434B /* Images.xcassets */,
+				099685FD1AC6941200EE434B /* LaunchScreen.xib */,
 				099685EF1AC6941200EE434B /* Info.plist */,
 				099685F01AC6941200EE434B /* main.m */,
 			);
@@ -237,6 +210,49 @@
 				099686091AC6941300EE434B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F155066A1BA85DCF00C6132A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0996866C1AC7AB7300EE434B /* libxml2.2.dylib */,
+				0996866A1AC7A99500EE434B /* libxml2.dylib */,
+				099686681AC7A97C00EE434B /* libresolv.dylib */,
+				099686661AC7A96C00EE434B /* libz.dylib */,
+				099686641AC7A96000EE434B /* Security.framework */,
+				099686621AC7A95700EE434B /* QuartzCore.framework */,
+				099686601AC7A94D00EE434B /* AVFoundation.framework */,
+				0996865E1AC7A94400EE434B /* CoreVideo.framework */,
+				0996865C1AC7A93A00EE434B /* Accelerate.framework */,
+				0996865A1AC7A93000EE434B /* CoreMedia.framework */,
+				099686581AC7A91C00EE434B /* AudioToolbox.framework */,
+				099686561AC7A91000EE434B /* CoreLocation.framework */,
+				099686541AC7A90400EE434B /* CoreGraphics.framework */,
+				099686521AC7A8FA00EE434B /* MobileCoreServices.framework */,
+				099686501AC7A8EA00EE434B /* SystemConfiguration.framework */,
+				0996864E1AC7A87900EE434B /* CFNetwork.framework */,
+				0996864C1AC7A83C00EE434B /* QuickBlox.framework */,
+				099686381AC7254E00EE434B /* MapKit.framework */,
+				0996862B1AC6C6F400EE434B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F155066B1BA860BD00C6132A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0996866F1AC7AF1800EE434B /* SignInViewController.m */,
+				099686701AC7AF1800EE434B /* SignInViewController.xib */,
+				099685F51AC6941200EE434B /* ChannelsTableViewController.h */,
+				099685F61AC6941200EE434B /* ChannelsTableViewController.m */,
+				099686221AC6AA4800EE434B /* ServiceChatsViewController.h */,
+				099686231AC6AA4800EE434B /* ServiceChatsViewController.m */,
+				099686241AC6AA4800EE434B /* ServiceChatsViewController.xib */,
+				099686331AC7245C00EE434B /* MapViewController.h */,
+				099686341AC7245C00EE434B /* MapViewController.m */,
+				099686351AC7245C00EE434B /* MapViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
