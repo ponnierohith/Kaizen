@@ -7,20 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099685F11AC6941200EE434B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099685F01AC6941200EE434B /* main.m */; };
 		099685F41AC6941200EE434B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099685F31AC6941200EE434B /* AppDelegate.m */; };
-		099685F71AC6941200EE434B /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099685F61AC6941200EE434B /* ChannelsTableViewController.m */; };
-		099685FC1AC6941200EE434B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099685FB1AC6941200EE434B /* Images.xcassets */; };
-		099685FF1AC6941200EE434B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099685FD1AC6941200EE434B /* LaunchScreen.xib */; };
 		0996860B1AC6941300EE434B /* KaizenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996860A1AC6941300EE434B /* KaizenTests.m */; };
 		099686211AC69D1B00EE434B /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 099686201AC69D1B00EE434B /* Message.m */; };
-		099686251AC6AA4800EE434B /* ServiceChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099686231AC6AA4800EE434B /* ServiceChatsViewController.m */; };
-		099686261AC6AA4800EE434B /* ServiceChatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099686241AC6AA4800EE434B /* ServiceChatsViewController.xib */; };
 		0996862C1AC6C6F400EE434B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996862B1AC6C6F400EE434B /* CoreData.framework */; };
-		0996862F1AC6C7FC00EE434B /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0996862D1AC6C7FC00EE434B /* DataModel.xcdatamodeld */; };
 		099686321AC7235100EE434B /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099686311AC7235100EE434B /* WYPopoverController.m */; };
-		099686361AC7245C00EE434B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099686341AC7245C00EE434B /* MapViewController.m */; };
-		099686371AC7245C00EE434B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099686351AC7245C00EE434B /* MapViewController.xib */; };
 		099686391AC7254E00EE434B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099686381AC7254E00EE434B /* MapKit.framework */; };
 		0996863F1AC7496F00EE434B /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996863E1AC7496F00EE434B /* Annotation.m */; };
 		0996864D1AC7A83C00EE434B /* QuickBlox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996864C1AC7A83C00EE434B /* QuickBlox.framework */; };
@@ -40,9 +31,19 @@
 		099686691AC7A97C00EE434B /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 099686681AC7A97C00EE434B /* libresolv.dylib */; };
 		0996866B1AC7A99500EE434B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996866A1AC7A99500EE434B /* libxml2.dylib */; };
 		0996866D1AC7AB7300EE434B /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996866C1AC7AB7300EE434B /* libxml2.2.dylib */; };
-		099686711AC7AF1800EE434B /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996866F1AC7AF1800EE434B /* SignInViewController.m */; };
-		099686721AC7AF1800EE434B /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099686701AC7AF1800EE434B /* SignInViewController.xib */; };
 		F15506691BA85D7400C6132A /* ChatDialogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506681BA85D7400C6132A /* ChatDialogViewCell.m */; };
+		F15506781BA8624B00C6132A /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F155066E1BA8624B00C6132A /* ChannelsTableViewController.m */; };
+		F15506791BA8624B00C6132A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506701BA8624B00C6132A /* MapViewController.m */; };
+		F155067A1BA8624B00C6132A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15506711BA8624B00C6132A /* MapViewController.xib */; };
+		F155067B1BA8624B00C6132A /* ServiceChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506731BA8624B00C6132A /* ServiceChatsViewController.m */; };
+		F155067C1BA8624B00C6132A /* ServiceChatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15506741BA8624B00C6132A /* ServiceChatsViewController.xib */; };
+		F155067D1BA8624B00C6132A /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506761BA8624B00C6132A /* SignInViewController.m */; };
+		F155067E1BA8624B00C6132A /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15506771BA8624B00C6132A /* SignInViewController.xib */; };
+		F15506871BA8626500C6132A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15506801BA8626500C6132A /* LaunchScreen.xib */; };
+		F15506881BA8626500C6132A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F15506821BA8626500C6132A /* DataModel.xcdatamodeld */; };
+		F15506891BA8626500C6132A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15506841BA8626500C6132A /* Images.xcassets */; };
+		F155068A1BA8626500C6132A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F15506851BA8626500C6132A /* Info.plist */; };
+		F155068B1BA8626500C6132A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15506861BA8626500C6132A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,29 +58,16 @@
 
 /* Begin PBXFileReference section */
 		099685EB1AC6941200EE434B /* Kaizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		099685EF1AC6941200EE434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		099685F01AC6941200EE434B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		099685F21AC6941200EE434B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		099685F31AC6941200EE434B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		099685F51AC6941200EE434B /* ChannelsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
-		099685F61AC6941200EE434B /* ChannelsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
-		099685FB1AC6941200EE434B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		099685FE1AC6941200EE434B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		099686041AC6941200EE434B /* KaizenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaizenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099686091AC6941300EE434B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0996860A1AC6941300EE434B /* KaizenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaizenTests.m; sourceTree = "<group>"; };
 		0996861F1AC69D1B00EE434B /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		099686201AC69D1B00EE434B /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		099686221AC6AA4800EE434B /* ServiceChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceChatsViewController.h; sourceTree = "<group>"; };
-		099686231AC6AA4800EE434B /* ServiceChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceChatsViewController.m; sourceTree = "<group>"; };
-		099686241AC6AA4800EE434B /* ServiceChatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceChatsViewController.xib; sourceTree = "<group>"; };
 		0996862B1AC6C6F400EE434B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		0996862E1AC6C7FC00EE434B /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		099686301AC7235100EE434B /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
 		099686311AC7235100EE434B /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
-		099686331AC7245C00EE434B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		099686341AC7245C00EE434B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		099686351AC7245C00EE434B /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		099686381AC7254E00EE434B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0996863D1AC7496F00EE434B /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		0996863E1AC7496F00EE434B /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
@@ -100,11 +88,24 @@
 		099686681AC7A97C00EE434B /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		0996866A1AC7A99500EE434B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0996866C1AC7AB7300EE434B /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		0996866E1AC7AF1800EE434B /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
-		0996866F1AC7AF1800EE434B /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
-		099686701AC7AF1800EE434B /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		F15506671BA85D7400C6132A /* ChatDialogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDialogViewCell.h; sourceTree = "<group>"; };
 		F15506681BA85D7400C6132A /* ChatDialogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDialogViewCell.m; sourceTree = "<group>"; };
+		F155066D1BA8624B00C6132A /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
+		F155066E1BA8624B00C6132A /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
+		F155066F1BA8624B00C6132A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F15506701BA8624B00C6132A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F15506711BA8624B00C6132A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		F15506721BA8624B00C6132A /* ServiceChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceChatsViewController.h; sourceTree = "<group>"; };
+		F15506731BA8624B00C6132A /* ServiceChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceChatsViewController.m; sourceTree = "<group>"; };
+		F15506741BA8624B00C6132A /* ServiceChatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceChatsViewController.xib; sourceTree = "<group>"; };
+		F15506751BA8624B00C6132A /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F15506761BA8624B00C6132A /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F15506771BA8624B00C6132A /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		F15506811BA8626500C6132A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F15506831BA8626500C6132A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		F15506841BA8626500C6132A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F15506851BA8626500C6132A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15506861BA8626500C6132A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +169,7 @@
 			children = (
 				099685F21AC6941200EE434B /* AppDelegate.h */,
 				099685F31AC6941200EE434B /* AppDelegate.m */,
-				0996866E1AC7AF1800EE434B /* SignInViewController.h */,
-				F155066B1BA860BD00C6132A /* ViewControllers */,
+				F155066C1BA8624B00C6132A /* ViewControllers */,
 				0996863D1AC7496F00EE434B /* Annotation.h */,
 				0996863E1AC7496F00EE434B /* Annotation.m */,
 				0996861F1AC69D1B00EE434B /* Message.h */,
@@ -178,21 +178,9 @@
 				F15506681BA85D7400C6132A /* ChatDialogViewCell.m */,
 				099686301AC7235100EE434B /* WYPopoverController.h */,
 				099686311AC7235100EE434B /* WYPopoverController.m */,
-				099685EE1AC6941200EE434B /* Supporting Files */,
+				F155067F1BA8626500C6132A /* Supporting Files */,
 			);
 			path = Kaizen;
-			sourceTree = "<group>";
-		};
-		099685EE1AC6941200EE434B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0996862D1AC6C7FC00EE434B /* DataModel.xcdatamodeld */,
-				099685FB1AC6941200EE434B /* Images.xcassets */,
-				099685FD1AC6941200EE434B /* LaunchScreen.xib */,
-				099685EF1AC6941200EE434B /* Info.plist */,
-				099685F01AC6941200EE434B /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		099686071AC6941200EE434B /* KaizenTests */ = {
@@ -238,21 +226,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F155066B1BA860BD00C6132A /* ViewControllers */ = {
+		F155066C1BA8624B00C6132A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0996866F1AC7AF1800EE434B /* SignInViewController.m */,
-				099686701AC7AF1800EE434B /* SignInViewController.xib */,
-				099685F51AC6941200EE434B /* ChannelsTableViewController.h */,
-				099685F61AC6941200EE434B /* ChannelsTableViewController.m */,
-				099686221AC6AA4800EE434B /* ServiceChatsViewController.h */,
-				099686231AC6AA4800EE434B /* ServiceChatsViewController.m */,
-				099686241AC6AA4800EE434B /* ServiceChatsViewController.xib */,
-				099686331AC7245C00EE434B /* MapViewController.h */,
-				099686341AC7245C00EE434B /* MapViewController.m */,
-				099686351AC7245C00EE434B /* MapViewController.xib */,
+				F155066D1BA8624B00C6132A /* ChannelsTableViewController.h */,
+				F155066E1BA8624B00C6132A /* ChannelsTableViewController.m */,
+				F155066F1BA8624B00C6132A /* MapViewController.h */,
+				F15506701BA8624B00C6132A /* MapViewController.m */,
+				F15506711BA8624B00C6132A /* MapViewController.xib */,
+				F15506721BA8624B00C6132A /* ServiceChatsViewController.h */,
+				F15506731BA8624B00C6132A /* ServiceChatsViewController.m */,
+				F15506741BA8624B00C6132A /* ServiceChatsViewController.xib */,
+				F15506751BA8624B00C6132A /* SignInViewController.h */,
+				F15506761BA8624B00C6132A /* SignInViewController.m */,
+				F15506771BA8624B00C6132A /* SignInViewController.xib */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F155067F1BA8626500C6132A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15506801BA8626500C6132A /* LaunchScreen.xib */,
+				F15506821BA8626500C6132A /* DataModel.xcdatamodeld */,
+				F15506841BA8626500C6132A /* Images.xcassets */,
+				F15506851BA8626500C6132A /* Info.plist */,
+				F15506861BA8626500C6132A /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,11 +337,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099686721AC7AF1800EE434B /* SignInViewController.xib in Resources */,
-				099685FF1AC6941200EE434B /* LaunchScreen.xib in Resources */,
-				099686371AC7245C00EE434B /* MapViewController.xib in Resources */,
-				099685FC1AC6941200EE434B /* Images.xcassets in Resources */,
-				099686261AC6AA4800EE434B /* ServiceChatsViewController.xib in Resources */,
+				F15506871BA8626500C6132A /* LaunchScreen.xib in Resources */,
+				F15506891BA8626500C6132A /* Images.xcassets in Resources */,
+				F155068A1BA8626500C6132A /* Info.plist in Resources */,
+				F155067C1BA8624B00C6132A /* ServiceChatsViewController.xib in Resources */,
+				F155067E1BA8624B00C6132A /* SignInViewController.xib in Resources */,
+				F155067A1BA8624B00C6132A /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,16 +361,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0996863F1AC7496F00EE434B /* Annotation.m in Sources */,
+				F15506881BA8626500C6132A /* DataModel.xcdatamodeld in Sources */,
+				F15506781BA8624B00C6132A /* ChannelsTableViewController.m in Sources */,
+				F155067B1BA8624B00C6132A /* ServiceChatsViewController.m in Sources */,
 				F15506691BA85D7400C6132A /* ChatDialogViewCell.m in Sources */,
-				099685F71AC6941200EE434B /* ChannelsTableViewController.m in Sources */,
 				099686211AC69D1B00EE434B /* Message.m in Sources */,
 				099685F41AC6941200EE434B /* AppDelegate.m in Sources */,
-				099686711AC7AF1800EE434B /* SignInViewController.m in Sources */,
-				099686361AC7245C00EE434B /* MapViewController.m in Sources */,
-				0996862F1AC6C7FC00EE434B /* DataModel.xcdatamodeld in Sources */,
-				099686251AC6AA4800EE434B /* ServiceChatsViewController.m in Sources */,
-				099685F11AC6941200EE434B /* main.m in Sources */,
 				099686321AC7235100EE434B /* WYPopoverController.m in Sources */,
+				F155067D1BA8624B00C6132A /* SignInViewController.m in Sources */,
+				F155068B1BA8626500C6132A /* main.m in Sources */,
+				F15506791BA8624B00C6132A /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +393,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		099685FD1AC6941200EE434B /* LaunchScreen.xib */ = {
+		F15506801BA8626500C6132A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				099685FE1AC6941200EE434B /* Base */,
+				F15506811BA8626500C6132A /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -495,7 +497,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = Kaizen/Info.plist;
+				INFOPLIST_FILE = "Kaizen/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
@@ -524,7 +526,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = Kaizen/Info.plist;
+				INFOPLIST_FILE = "Kaizen/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
@@ -605,12 +607,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0996862D1AC6C7FC00EE434B /* DataModel.xcdatamodeld */ = {
+		F15506821BA8626500C6132A /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0996862E1AC6C7FC00EE434B /* DataModel.xcdatamodel */,
+				F15506831BA8626500C6132A /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 0996862E1AC6C7FC00EE434B /* DataModel.xcdatamodel */;
+			currentVersion = F15506831BA8626500C6132A /* DataModel.xcdatamodel */;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
